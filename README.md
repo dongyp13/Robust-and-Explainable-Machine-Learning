@@ -6,6 +6,39 @@ Related materials for robust and explainable machine learning
 - [Robustness](#robustness)
 - [Explainability](#explainability)
 
+##Robustness
+###Properties
+* [Intriguing properties of neural networks](https://arxiv.org/abs/1312.6199) <br/> Individual unit contains no semantic information; Adversarial examples by L-BFGS.
+* [Deep Neural Networks are Easily Fooled:High Confidence Predictions for Unrecognizable Images](https://arxiv.org/abs/1412.1897) <br/> Fool images by evolution algorithm.
+
+###Transferability
+* [Delving into Transferable Adversarial Examples and Black-box Attacks](https://arxiv.org/abs/1611.02770) <br/> Examine the transferability on ImageNet dataset and use this property to attack black-box systems.
+
+
+###White-box Attack
+* [Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572) <br/> Fast gradient sign method.
+* [https://arxiv.org/abs/1607.02533](https://arxiv.org/abs/1607.02533) <br/> Printed photos can also fool the networks; Introduce an interative method (extension of FGS).
+* [DeepFool: a simple and accurate method to fool deep neural networks](https://arxiv.org/pdf/1511.04599.pdf)
+* [Good Word Attacks on Statistical Spam Filters](http://www.egov.ufsc.br/portal/sites/default/files/anexos/5867-5859-1-PB.pdf)
+* 
+
+###Black-box Attack
+
+* [Simple Black-Box Adversarial Perturbations for Deep Networks](https://arxiv.org/abs/1612.06299) <br/> Black-box attack using greedy search.
+
+
+###Generative Model
+* [Adversarial examples for generative models](https://arxiv.org/abs/1702.06832) <br/> Attack VAE and VAE-GAN.
+* [Adversarial Images for Variational Autoencoders](https://arxiv.org/abs/1612.00155) <br/> Attack VAE by latent representations.
+* 
+
+###Defense
+* [On Detecting Adversarial Perturbations](https://arxiv.org/abs/1702.04267) <br/> Detect adversarial perturbations in intermediate layers by a detector network and dynamic generate adversarial images during training.
+
+### Theoretical Attack
+* [A Theoretical Framework for Robustness of (Deep) Classifiers against Adversarial Examples](https://arxiv.org/abs/1612.00334)
+* [Blind Attacks on Machine Learners](https://papers.nips.cc/paper/6482-blind-attacks-on-machine-learners)
+
 
 ##Explainability
 ###Visualization
