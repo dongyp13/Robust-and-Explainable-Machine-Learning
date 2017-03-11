@@ -9,7 +9,8 @@ Related materials for robust and explainable machine learning
 ##Robustness
 ###Properties
 * [Intriguing properties of neural networks](https://arxiv.org/abs/1312.6199) <br/> Individual unit contains no semantic information; Adversarial examples by L-BFGS (Optimization based).
-* [Deep Neural Networks are Easily Fooled:High Confidence Predictions for Unrecognizable Images](https://arxiv.org/abs/1412.1897) <br/> Fool images by evolution algorithm.
+* [Deep Neural Networks are Easily Fooled:
+High Confidence Predictions for Unrecognizable Images](https://arxiv.org/abs/1412.1897) <br/> Fool images by evolution algorithm.
 * [Universal adversarial perturbations](https://arxiv.org/abs/1610.08401) <br/> Universal adversarial perturbations can fool the network in most of the images.
 
 ###Transferability
@@ -37,7 +38,7 @@ Related materials for robust and explainable machine learning
 ###Defense
 * [Robust Convolutional Neural Networks under Adversarial Noise](https://arxiv.org/abs/1511.06306) <br/> Improve robustness by injecting noise during training.
 * [Towards Deep Neural Network Architectures Robust to Adversarial Examples](https://arxiv.org/abs/1412.5068) <br/> Use aotoencoder to denoise.
-* [On Detecting Adversarial Perturbations](https://arxiv.org/abs/1702.04267) <br/> Detect adversarial perturbations in intermediate layers by a detector network and dynamic generate adversarial images during training.
+* [On Detecting Adversarial Perturbations](https://arxiv.org/abs/1702.04267) <br/> Detect adversarial perturbations in intermediate layers by a detector network and dynamic generate adversarial images during training. They also propose fast gradient method, which is an extension of iterative method based on l2 norm.
 
 ### Theoretical Attack
 * [Measuring Neural Net Robustness with Constraints](https://arxiv.org/pdf/1605.07262.pdf)<br/>A measurement of robustness.
@@ -48,7 +49,8 @@ Related materials for robust and explainable machine learning
 
 ##Explainability
 ###Visualization
-* [Visualizing and Understanding Convolutional Networks] (https://arxiv.org/abs/1311.2901) <br/> Code inversion.
+* [Visualizing and Understanding Convolutional Networks
+] (https://arxiv.org/abs/1311.2901) <br/> Code inversion.
 * [Inverting Visual Representations with Convolutional Networks] (https://arxiv.org/abs/1506.02753) <br/> Code inversion by learning a decoder network.
 * [Understanding Deep Image Representations by Inverting Them] (https://arxiv.org/abs/1412.0035) <br/> Code inversion with priors.
 * [Synthesizing the preferred inputs for neurons in neural networks via deep generator networks](https://arxiv.org/abs/1605.09304) <br/> Synthesize an image from internal representations and use GAN (deconvolution) to learn image priors. (like code inversion)
@@ -60,7 +62,8 @@ Related materials for robust and explainable machine learning
 
 ###Attention
 * [Learning Deep Features for Discriminative Localization] (http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf) <br/> CAM for weakly supervised detection.
-* [Grad-CAM: Why did you say that?Visual Explanations from Deep Networks via Gradient-based Localization] (https://arxiv.org/abs/1610.02391) <br/> Extension of CAM on captioning and VQA.
+* [Grad-CAM: Why did you say that?
+Visual Explanations from Deep Networks via Gradient-based Localization] (https://arxiv.org/abs/1610.02391) <br/> Extension of CAM on captioning and VQA.
 
 ###Justification
 * [Generating Visual Explanations](https://arxiv.org/abs/1603.08507) <br/> Generate an explanation for bird classification.
