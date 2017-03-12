@@ -19,7 +19,7 @@ High Confidence Predictions for Unrecognizable Images](https://arxiv.org/abs/141
 
 ### Attack
 * [Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572) <br/> Fast gradient sign method.
-* [Adversarial Examples In The Physical World](https://arxiv.org/abs/1607.02533) <br/> Printed photos can also fool the networks; Introduce an interative method (extension of FGS).
+* [Adversarial Examples In The Physical World](https://arxiv.org/abs/1607.02533) <br/> Printed photos can also fool the networks; Introduce an iterative method (extension of FGS).
 * [The Limitations of Deep Learning in Adversarial Settings](https://arxiv.org/abs/1511.07528) <br/> Find salient input regions that are useful for adversarial examples.
 * [Towards Evaluating the Robustness of Neural Networks](https://arxiv.org/abs/1608.04644) <br/> Optimization based approach.
 * [DeepFool: a simple and accurate method to fool deep neural networks](https://arxiv.org/pdf/1511.04599.pdf) <br/> A new method to generate non-targeted adversarial examples. Find the closest boundary and also use the gradient.
