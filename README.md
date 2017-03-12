@@ -35,6 +35,7 @@ Related materials for robust and explainable machine learning
 * 
 
 ###Defense
+* [Distillation as a Defense to Adversarial Perturbations against Deep Neural Networks](https://arxiv.org/abs/1511.04508) <br/> Train a second network with soft target labels.
 * [Robust Convolutional Neural Networks under Adversarial Noise](https://arxiv.org/abs/1511.06306) <br/> Improve robustness by injecting noise during training.
 * [Towards Deep Neural Network Architectures Robust to Adversarial Examples](https://arxiv.org/abs/1412.5068) <br/> Use aotoencoder to denoise.
 * [On Detecting Adversarial Perturbations](https://arxiv.org/abs/1702.04267) <br/> Detect adversarial perturbations in intermediate layers by a detector network and dynamic generate adversarial images during training.
