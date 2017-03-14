@@ -6,14 +6,14 @@ Related materials for robust and explainable machine learning
 - [Robustness](#robustness)
 - [Explainability](#explainability)
 
-##Robustness
-###Properties
+## Robustness
+### Properties
 * [Intriguing properties of neural networks](https://arxiv.org/abs/1312.6199) <br/> Individual unit contains no semantic information; Adversarial examples by L-BFGS (Optimization based).
 * [Deep Neural Networks are Easily Fooled:
 High Confidence Predictions for Unrecognizable Images](https://arxiv.org/abs/1412.1897) <br/> Fool images by evolution algorithm.
 * [Universal adversarial perturbations](https://arxiv.org/abs/1610.08401) <br/> Universal adversarial perturbations can fool the network in most of the images.
 
-###Transferability
+### Transferability
 * [Delving into Transferable Adversarial Examples and Black-box Attacks](https://arxiv.org/abs/1611.02770) <br/> Examine the transferability on ImageNet dataset and use this property to attack black-box systems.
 
 
@@ -30,12 +30,11 @@ High Confidence Predictions for Unrecognizable Images](https://arxiv.org/abs/141
 * [Adversarial Diversity and Hard Positive Generation](https://arxiv.org/abs/1605.01775)
 
 
-###Generative Model
+### Generative Model
 * [Adversarial examples for generative models](https://arxiv.org/abs/1702.06832) <br/> Attack VAE and VAE-GAN.
-* [Adversarial Images for Variational Autoencoders](https://arxiv.org/abs/1612.00155) <br/> Attack VAE by latent representations.
-* 
+* [Adversarial Images for Variational Autoencoders](https://arxiv.org/abs/1612.00155) <br/> Attack VAE by latent representations. 
 
-###Defense
+### Defense
 * [Distillation as a Defense to Adversarial Perturbations against Deep Neural Networks](https://arxiv.org/abs/1511.04508) <br/> Train a second network with soft target labels.
 * [Robust Convolutional Neural Networks under Adversarial Noise](https://arxiv.org/abs/1511.06306) <br/> Improve robustness by injecting noise during training.
 * [Towards Deep Neural Network Architectures Robust to Adversarial Examples](https://arxiv.org/abs/1412.5068) <br/> Use aotoencoder to denoise.
@@ -48,8 +47,8 @@ High Confidence Predictions for Unrecognizable Images](https://arxiv.org/abs/141
 * [SoK Towards the Science of Security and Privacy in Machine Learning](https://spqr.eecs.umich.edu/papers/rushanan-sok-oakland14.pdf)
 * [Robustness of classifiers: from adversarial to random noise](https://arxiv.org/abs/1608.08967)
 
-##Explainability
-###Visualization
+## Explainability
+### Visualization
 * [Visualizing and Understanding Convolutional Networks
 ] (https://arxiv.org/abs/1311.2901) <br/> Code inversion.
 * [Inverting Visual Representations with Convolutional Networks] (https://arxiv.org/abs/1506.02753) <br/> Code inversion by learning a decoder network.
@@ -61,15 +60,15 @@ High Confidence Predictions for Unrecognizable Images](https://arxiv.org/abs/141
 * [Object Detectors Emerge in Deep Scene CNNs] (https://arxiv.org/abs/1412.6856) <br/> Visualize neurons by highest activated images and corresponding receptive fields.
 * [Visualizing Deep Neural Network Decisions: Prediction Difference Analysis] (https://arxiv.org/abs/1702.04595) <br/> A general method to visualize image regions that support or against a prediction (Attention). It can also be used to visualize neurons.
 
-###Attention
+### Attention
 * [Learning Deep Features for Discriminative Localization] (http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf) <br/> CAM for weakly supervised detection.
 * [Grad-CAM: Why did you say that?
 Visual Explanations from Deep Networks via Gradient-based Localization] (https://arxiv.org/abs/1610.02391) <br/> Extension of CAM on captioning and VQA.
 
-###Justification
+### Justification
 * [Generating Visual Explanations](https://arxiv.org/abs/1603.08507) <br/> Generate an explanation for bird classification.
 * [Attentive Explanations: Justifying Decisions and Pointing to the Evidence](https://arxiv.org/abs/1612.04757) <br/> Justify its decisions by generating a neuron sentence and pointing to important image regions (Attention) in VQA task. 
 
-###Generative Models
+### Generative Models
 * [Inducing Interpretable Representations with Variational Autoencoders](https://arxiv.org/abs/1611.07492) <br/> Learn interpretable latent variables in VAE.
 * [InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets] (https://arxiv.org/abs/1606.03657) <br/> In GAN.
