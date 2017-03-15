@@ -49,8 +49,7 @@ High Confidence Predictions for Unrecognizable Images](https://arxiv.org/abs/141
 
 ## Explainability
 ### Visualization
-* [Visualizing and Understanding Convolutional Networks
-] (https://arxiv.org/abs/1311.2901) <br/> Code inversion.
+* [Visualizing and Understanding Convolutional Networks](https://arxiv.org/abs/1311.2901) <br/> Code inversion.
 * [Inverting Visual Representations with Convolutional Networks](https://arxiv.org/abs/1506.02753) <br/> Code inversion by learning a decoder network.
 * [Understanding Deep Image Representations by Inverting Them](https://arxiv.org/abs/1412.0035) <br/> Code inversion with priors.
 * [Synthesizing the preferred inputs for neurons in neural networks via deep generator networks](https://arxiv.org/abs/1605.09304) <br/> Synthesize an image from internal representations and use GAN (deconvolution) to learn image priors. (like code inversion)
@@ -62,8 +61,7 @@ High Confidence Predictions for Unrecognizable Images](https://arxiv.org/abs/141
 
 ### Attention
 * [Learning Deep Features for Discriminative Localization](http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf) <br/> CAM for weakly supervised detection.
-* [Grad-CAM: Why did you say that?
-Visual Explanations from Deep Networks via Gradient-based Localization] (https://arxiv.org/abs/1610.02391) <br/> Extension of CAM on captioning and VQA.
+* [Grad-CAM: Why did you say that? Visual Explanations from Deep Networks via Gradient-based Localization](https://arxiv.org/abs/1610.02391) <br/> Extension of CAM on captioning and VQA.
 
 ### Justification
 * [Generating Visual Explanations](https://arxiv.org/abs/1603.08507) <br/> Generate an explanation for bird classification.
