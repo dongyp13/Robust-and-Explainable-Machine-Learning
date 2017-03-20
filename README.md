@@ -64,6 +64,8 @@ High Confidence Predictions for Unrecognizable Images](https://arxiv.org/abs/141
 * [Grad-CAM: Why did you say that? Visual Explanations from Deep Networks via Gradient-based Localization](https://arxiv.org/abs/1610.02391) <br/> Extension of CAM on captioning and VQA.
 * [Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps](https://arxiv.org/pdf/1312.6034.pdf) <br/> Visualize the class specific representation in the input space(activation maximization) and use the gradient information to find the saliency map. Gradients can
 represent the importance.
+* [Towards Transparent AI Systems: Interpreting Visual Question Answering Models](http://icmlviz.github.io/assets/papers/22.pdf) <br/> Interpreting VQA answers by finding important image regions and question words.
+* [Human Attention in Visual Question Answering:Do Humans and Deep Networks Look at the Same Regions?](http://icmlviz.github.io/assets/papers/17.pdf) <br/> Study the attention regions made by humans and attention-models in VQA task.
 
 ### Justification
 * [Generating Visual Explanations](https://arxiv.org/abs/1603.08507) <br/> Generate an explanation for bird classification.
