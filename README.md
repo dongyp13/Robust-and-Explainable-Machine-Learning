@@ -62,6 +62,8 @@ High Confidence Predictions for Unrecognizable Images](https://arxiv.org/abs/141
 ### Attention
 * [Learning Deep Features for Discriminative Localization](http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf) <br/> CAM for weakly supervised detection.
 * [Grad-CAM: Why did you say that? Visual Explanations from Deep Networks via Gradient-based Localization](https://arxiv.org/abs/1610.02391) <br/> Extension of CAM on captioning and VQA.
+* [Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps](https://arxiv.org/pdf/1312.6034.pdf) <br/> Visualize the class specific representation in the input space(activation maximization) and use the gradient information to find the saliency map. Gradients can
+represent the importance.
 
 ### Justification
 * [Generating Visual Explanations](https://arxiv.org/abs/1603.08507) <br/> Generate an explanation for bird classification.
