@@ -49,7 +49,7 @@ High Confidence Predictions for Unrecognizable Images](https://arxiv.org/abs/141
 
 ## Explainability
 ### Visualization
-* [Visualizing and Understanding Convolutional Networks](https://arxiv.org/abs/1311.2901) <br/> Code inversion.
+* [Visualizing and Understanding Convolutional Networks](https://arxiv.org/abs/1311.2901) <br/> Deconvolution.
 * [Inverting Visual Representations with Convolutional Networks](https://arxiv.org/abs/1506.02753) <br/> Code inversion by learning a decoder network.
 * [Understanding Deep Image Representations by Inverting Them](https://arxiv.org/abs/1412.0035) <br/> Code inversion with priors.
 * [Synthesizing the preferred inputs for neurons in neural networks via deep generator networks](https://arxiv.org/abs/1605.09304) <br/> Synthesize an image from internal representations and use GAN (deconvolution) to learn image priors. (like code inversion)
