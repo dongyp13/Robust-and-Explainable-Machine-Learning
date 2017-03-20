@@ -58,6 +58,7 @@ High Confidence Predictions for Unrecognizable Images](https://arxiv.org/abs/141
 * [Towards Better Analysis of Deep Convolutional Neural Networks](https://arxiv.org/abs/1604.07043) <br/> An useful tool. Represent a neuron by top image patches with highest activation.
 * [Object Detectors Emerge in Deep Scene CNNs](https://arxiv.org/abs/1412.6856) <br/> Visualize neurons by highest activated images and corresponding receptive fields.
 * [Visualizing Deep Neural Network Decisions: Prediction Difference Analysis](https://arxiv.org/abs/1702.04595) <br/> A general method to visualize image regions that support or against a prediction (Attention). It can also be used to visualize neurons.
+* [STRIVING FOR SIMPLICITY: THE ALL CONVOLUTIONAL NET](https://arxiv.org/pdf/1412.6806.pdf) <br/> Guided backpropogation
 
 ### Attention
 * [Learning Deep Features for Discriminative Localization](http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf) <br/> CAM for weakly supervised detection.
