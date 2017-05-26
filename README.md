@@ -47,8 +47,9 @@ High Confidence Predictions for Unrecognizable Images](https://arxiv.org/abs/141
 * [SoK Towards the Science of Security and Privacy in Machine Learning](https://spqr.eecs.umich.edu/papers/rushanan-sok-oakland14.pdf)
 * [Robustness of classifiers: from adversarial to random noise](https://arxiv.org/abs/1608.08967)
 
-## Explainability
-### Visualization
+## Interpretability
+
+* [Towards A Rigorous Science of Interpretable Machine Learning](https://arxiv.org/pdf/1702.08608.pdf) <br/> An overview of interpretability.
 * [Visualizing and Understanding Convolutional Networks](https://arxiv.org/abs/1311.2901) <br/> Deconvolution.
 * [Inverting Visual Representations with Convolutional Networks](https://arxiv.org/abs/1506.02753) <br/> Code inversion by learning a decoder network.
 * [Understanding Deep Image Representations by Inverting Them](https://arxiv.org/abs/1412.0035) <br/> Code inversion with priors.
@@ -59,8 +60,8 @@ High Confidence Predictions for Unrecognizable Images](https://arxiv.org/abs/141
 * [Object Detectors Emerge in Deep Scene CNNs](https://arxiv.org/abs/1412.6856) <br/> Visualize neurons by highest activated images and corresponding receptive fields.
 * [Visualizing Deep Neural Network Decisions: Prediction Difference Analysis](https://arxiv.org/abs/1702.04595) <br/> A general method to visualize image regions that support or against a prediction (Attention). It can also be used to visualize neurons.
 * [STRIVING FOR SIMPLICITY: THE ALL CONVOLUTIONAL NET](https://arxiv.org/pdf/1412.6806.pdf) <br/> Guided backpropogation
-
-### Attention
+* [Network Dissection Quantifying Interpretability of Deep Visual Representations](https://arxiv.org/pdf/1704.05796.pdf) <br/> A new dataset with pixel-level annotations to quantify the interpretability of neurons (by using IoU).
+* [Do semantic parts emerge in Convolutional Neural Networks?](https://arxiv.org/pdf/1607.03738.pdf) <br/> Semantic parts emerge in CNNs by using detection datasets.
 * [Learning Deep Features for Discriminative Localization](http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf) <br/> CAM for weakly supervised detection.
 * [Grad-CAM: Why did you say that? Visual Explanations from Deep Networks via Gradient-based Localization](https://arxiv.org/abs/1610.02391) <br/> Extension of CAM on captioning and VQA.
 * [Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps](https://arxiv.org/pdf/1312.6034.pdf) <br/> Visualize the class specific representation in the input space(activation maximization) and use the gradient information to find the saliency map. Gradients can
